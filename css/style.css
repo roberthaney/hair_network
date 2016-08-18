@@ -1,0 +1,110 @@
+header {
+	font-size: 50px;
+	color: #cccccc;
+	height: 80px;
+	margin-bottom: 5px;
+	padding-right: 30px;
+	padding-bottom: 0;
+	text-shadow: -4px 4px 3px #e6e6e6;
+	text-shadow: -4px 4px 3px #ffeddf;
+	background-color: #5b5437;
+	text-align: right;
+	animation: slide 2s;
+}
+
+img {
+	max-width: 100%;
+	margin-left: 0;
+}
+
+.content {
+	background-color: #eeb771;
+}
+
+.contacts {
+	margin-bottom: 5px;
+}
+
+.contacts span {
+	margin:5px;
+	color: #947155;
+}
+
+.container .intro {
+	background-color: #fafad2;
+	background-image: linear-gradient(to right, white, #dbd1cf);
+	margin-bottom: 5px;
+}
+
+#introduction {
+	margin-top: 10px;
+}
+
+#sidebar {
+	border: 1px solid black;
+	background: #F5EFFB;
+	min-width: 200px;
+	min-height: 200px;
+	text-align: center;
+}
+
+/*#stylists {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}*/
+
+#services {
+	margin-bottom: 10px;
+	color: #5b5437;
+	text-align:center;
+}
+
+#styling {
+	margin-top: 10px;
+}
+
+#highlighting {
+	margin-top: 15px;
+}
+
+#products {
+	text-align:center;
+	background-color: #fafad2;
+	background-image: linear-gradient(to left, white, #dbd1cf);
+}
+
+.product {
+	text-align:center;
+}
+
+.product-image {
+	max-width: 300px;
+}
+
+#email {
+	display: inline;
+	float: right;
+}
+
+.foot {
+	margin-top: 20px;
+	background-color: #003300;
+	color: white;
+	text-align: center;
+	padding-top: 5px;
+}
+
+a:hover {
+	color: #000;
+	background-color: rgba(255,255,255,.8);
+}
+
+@keyframes slide {
+	from {
+		text-align: left;
+	}
+	to {
+		text-align: right;
+	}
+}
