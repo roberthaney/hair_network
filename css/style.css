@@ -64,12 +64,6 @@ img {
 	font-family: fantasy;
 }
 
-/*#stylists {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}*/
-
 #services {
 	margin-bottom: 30px;
 	color: #5b5437;
@@ -126,5 +120,12 @@ a:hover {
 	}
 	to {
 		left: 70%;
+	}
+}
+
+@media only screen and (max-width:1000px) {
+	#title, #address {
+		left: 2%;
+		animation: none;
 	}
 }
