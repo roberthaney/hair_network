@@ -101,6 +101,30 @@ img {
 	float: right;
 }
 
+#testimonials p {
+	font-size: 20px;
+	border-radius: 10px;
+	padding: 5px 10px 5px 10px;
+	margin-top: 30px;
+}
+
+#quotes {
+	margin-top: 20px;
+}
+
+#quotes :nth-child(odd) {
+	border: 3px solid #ffeddf;;
+	margin-left: 100px;
+	background-color: #5b5437;
+	color: white;
+}
+
+#quotes :nth-child(even) {
+	border: 3px solid #003300;;
+	margin-right: 100px;
+	background-color: #ffeddf;
+}
+
 .foot {
 	margin-top: 20px;
 	background-color: #003300;
