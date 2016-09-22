@@ -12,6 +12,7 @@
 			<header class="row">
  		    <ul class="nav nav-tabs">
  		      <li class="active"><a href="#overview" data-toggle="tab">Overview</a></li>
+ 		      <li><a href="#stylists" data-toggle="tab">Meet our stylists</a></li>
  		      <li><a href="#testimonials" data-toggle="tab">Testimonials</a></li>
  		      <li><a href="#directions" data-toggle="tab">Directions</a></li>
  		      <li><a href="#appointments" data-toggle="tab">Appointments</a></li>
@@ -19,41 +20,58 @@
 				<p id="title">Hair Network</p>
 				<p id="address">31 Court St. Middlebury, VT</p>
 			</header>
-			<div class="row contacts">
-				<span>Call us today: 802-555-1212</span>
-				<span id="email">email: email@email.com</span>
-			</div>
-			<div class="row intro">
-				<div class="col-md-6">
-					<img src="images/FallsLyeBrook.jpg" alt="Falls at Lye Brook">
+			<div class="tab-content">
+				<div class="tab-pane active" id="overview">
+					<div class="row contacts">
+						<span>Call us today: 802-555-1212</span>
+						<span id="email">email: email@email.com</span>
+					</div>
+					<div class="row intro">
+						<div class="col-md-6">
+							<img src="images/FallsLyeBrook.jpg" alt="Falls at Lye Brook">
+						</div>
+						<div class="col-md-6" id="introduction">
+							<p>We are a full service salon located in Middlebury, Vermont, in the beautiful Champlain Valley nestled between the peaks of the Green and Adirondack montains.</p>
+							<p>Our mission: </p>
+						</div>
+					</div>
+					<div class="row" id="services">
+						<h2 id="service-title">We offer the following services:</h2>
+						<div class="col-md-4">
+							<h3>Hair Styling</h3>
+							<img src="images/split-ends.jpg">
+						</div>
+						<div class="col-md-4">
+							<h3>Hair Coloring</h3>
+							<img src="images/hair-coloring.jpg">
+						</div>
+						<div class="col-md-4">
+							<h3>Highlighting</h3>
+							<img src="images/beautiful-highlights-on-dark-hair.jpg">
+						</div>
+					</div>
+					<div class="row" id="products">
+						<h4>Only the finest products are used at Hair Network</h4>
+						<div class="col-md-6 product">
+							<img src="images/redken.jpg" class="product-image">
+						</div>
+						<div class="col-md-6 product">
+							<img src="images/aveda.jpg" class="product-image">
+						</div>
+					</div>
 				</div>
-				<div class="col-md-6" id="introduction">
-					<p>We are a full service salon located in Middlebury, Vermont, in the beautiful Champlain Valley nestled between the peaks of the Green and Adirondack montains.</p>
-					<p>Our mission: </p>
+				<div class="tab-pane" id="stylists">
+					<h2>OUR STYLISTS</h2>
 				</div>
-			</div>
-			<div class="row" id="services">
-				<h2 id="service-title">We offer the following services:</h2>
-				<div class="col-md-4">
-					<h3>Hair Styling</h3>
-					<img src="images/split-ends.jpg">
+				<div class="tab-pane" id="testimonials">
+					
+					<h2>TESTIMONIALS</h2><span>...From our valued customers</span>
 				</div>
-				<div class="col-md-4">
-					<h3>Hair Coloring</h3>
-					<img src="images/hair-coloring.jpg">
+				<div class="tab-pane" id="directions">
+					<h2>DIRECTIONS</h2>
 				</div>
-				<div class="col-md-4">
-					<h3>Highlighting</h3>
-					<img src="images/beautiful-highlights-on-dark-hair.jpg">
-				</div>
-			</div>
-			<div class="row" id="products">
-				<h4>Only the finest products are used at Hair Network</h4>
-				<div class="col-md-6 product">
-					<img src="images/redken.jpg" class="product-image">
-				</div>
-				<div class="col-md-6 product">
-					<img src="images/aveda.jpg" class="product-image">
+				<div class="tab-pane" id="appointments">
+					<h2>APPOINTMENTS</h2>
 				</div>
 			</div>
 			<footer class="row foot">
