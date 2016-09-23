@@ -39,15 +39,15 @@
 						<h2 id="service-title">We offer the following services:</h2>
 						<div class="col-md-4">
 							<h3>Hair Styling</h3>
-							<img src="images/split-ends.jpg">
+							<img src="images/split-ends.jpg" data-toggle="modal" data-target="#modal1">
 						</div>
 						<div class="col-md-4">
 							<h3>Hair Coloring</h3>
-							<img src="images/hair-coloring.jpg">
+							<img src="images/hair-coloring.jpg" data-toggle="modal" data-target="#modal2">
 						</div>
 						<div class="col-md-4">
 							<h3>Highlighting</h3>
-							<img src="images/beautiful-highlights-on-dark-hair.jpg">
+							<img src="images/beautiful-highlights-on-dark-hair.jpg" data-toggle="modal" data-target="#modal3">
 						</div>
 					</div>
 					<div class="row" id="products">
@@ -99,6 +99,61 @@
 			<footer class="row foot">
 				<p>Copyright 2016</p>
 			</footer>
+		</div>
+
+		<!-- MODAL 1-->
+		<div class="modal fade" id="modal1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Hair Styling</h4>
+						<p>Description of service and pricing information goes here</p>
+					</div>
+					<div class="modal-body">
+						<img src="images/split-ends.jpg">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- MODAL 2-->
+		<div class="modal fade" id="modal2">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Hair Coloring</h4>
+						<p>Description of service and pricing information goes here</p>
+					</div>
+					<div class="modal-body">
+						<img src="images/hair-coloring.jpg">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- MODAL 3 -->
+		<div class="modal fade" id="modal3">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modal-title">Highlighting</h4>
+						<p>Description of service and pricing information goes here</p>
+					</div>
+					<div class="modal-body">
+						<img src="images/beautiful-highlights-on-dark-hair.jpg">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	<script src="js/jquery-1.12.0.min.js"></script>
  	<script src="js/bootstrap.min.js"></script>
