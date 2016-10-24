@@ -105,15 +105,32 @@ img {
 	float: right;
 }
 
-#services-menu-content {
+#services-menu-content1 {
 	background-image: linear-gradient(to right, white, #e9e3e2);
 }
 
-#services-menu p {
-	font-size: 20px;
+#services-menu-content2  .col-sm-4 img {
+	border-radius: 150px;
+	width: 90%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#services-menu-content2 .col-sm-8 p {
+	font-size: 16px;
+	margin-top: 150px;
+	color: #ffffff;
+	background-color: #004d00;
 	border-radius: 10px;
-	padding: 5px 10px 5px 10px;
-	margin-top: 30px;
+	padding: 10px 10px 10px 5px;
+	width: 90%;
+	float: right;
+}
+
+#services-menu li {
+	font-size: 16px;
+	padding: 5px 5px 5px 5px;
+	margin-top: 5px;
 }
 
 .foot {
@@ -123,11 +140,6 @@ img {
 	text-align: center;
 	padding-top: 5px;
 }
-
-/*a:hover {
-	color: #000;
-	background-color: rgba(255,255,255,.8);
-}*/
 
 @keyframes slide {
 	from {
@@ -142,5 +154,12 @@ img {
 	#title, #address {
 		left: 2%;
 		animation: none;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	#services-menu-content2 .col-sm-8 p {
+		margin-top: 0;
+		width:100%;
 	}
 }
