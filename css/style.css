@@ -1,3 +1,7 @@
+body {
+	overflow-x: hidden;
+}
+
 header {
 	font-size: 50px;
 	color: white;
@@ -47,8 +51,8 @@ img {
 }
 
 .intro {
-	background-color: #fafad2;
-	background-image: linear-gradient(to right, white, #dbd1cf);
+	/*background-color: #fafad2;*/
+	background-image: linear-gradient(to right, white, #ded5d3);
 	margin-bottom: 10px;
 }
 
@@ -84,7 +88,7 @@ img {
 #products {
 	text-align:center;
 	background-color: #fafad2;
-	background-image: linear-gradient(to left, white, #dbd1cf);
+	background-image: linear-gradient(to left, white, #ded5d3);
 	padding-bottom: 10px;
 }
 
@@ -101,28 +105,15 @@ img {
 	float: right;
 }
 
+#services-menu-content {
+	background-image: linear-gradient(to right, white, #e9e3e2);
+}
+
 #services-menu p {
 	font-size: 20px;
 	border-radius: 10px;
 	padding: 5px 10px 5px 10px;
 	margin-top: 30px;
-}
-
-#quotes {
-	margin-top: 20px;
-}
-
-#quotes :nth-child(odd) {
-	border: 3px solid #ffeddf;;
-	margin-left: 100px;
-	background-color: #5b5437;
-	color: white;
-}
-
-#quotes :nth-child(even) {
-	border: 3px solid #003300;;
-	margin-right: 100px;
-	background-color: #ffeddf;
 }
 
 .foot {
@@ -133,10 +124,10 @@ img {
 	padding-top: 5px;
 }
 
-a:hover {
+/*a:hover {
 	color: #000;
 	background-color: rgba(255,255,255,.8);
-}
+}*/
 
 @keyframes slide {
 	from {
