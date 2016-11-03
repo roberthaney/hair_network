@@ -38,6 +38,10 @@ img {
 	max-width: 100%;
 }
 
+.albumImage {
+	max-height: 500px;
+}
+
 .content {
 	background-color: #eeb771;
 }
@@ -52,7 +56,7 @@ img {
 
 .intro {
 	/*background-color: #fafad2;*/
-	background-image: linear-gradient(to right, white, #ded5d3);
+	background-image: linear-gradient(to right, #ffffff, #ded5d3);
 	margin-bottom: 10px;
 }
 
