@@ -137,6 +137,10 @@ img {
 	margin-top: 5px;
 }
 
+#map {
+	height: 541px;
+}
+
 .foot {
 	margin-top: 20px;
 	background-color: #003300;
