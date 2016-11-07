@@ -54,6 +54,7 @@ img {
 .contacts img {
 	max-height: 30px;
 	margin-top: -6px;
+	border: 1px solid #b3b3b3;
 }
 
 .contacts:nth-child(odd) {
@@ -62,7 +63,8 @@ img {
 }
 
 .intro {
-	background-image: linear-gradient(to right, #ffffff, #ded5d3);
+	/*background-image: linear-gradient(to right, #ffffff, #ded5d3);*/
+	background-color: #e9e3e2;
 	margin-bottom: 10px;
 }
 
@@ -111,7 +113,6 @@ img {
 }
 
 #email {
-	
 	float: right;
 }
 
@@ -178,11 +179,29 @@ img {
 		width:100%;
 		box-shadow: none;
 	}
+}
+
+@media only screen and (max-width: 989px) {
+	#email {
+		float:none;
+	}
 	.contacts > div {
 		margin: 5px;
 		padding: 5px;
 	}
-	#email {
-		float:none;
+	.carousel-inner {
+		padding-left: 130px;
+	}
+}
+
+@media only screen and (max-width: 722px) {
+	.carousel-inner {
+		padding-left: 50px;
+	}
+}
+
+@media only screen and (max-width: 440px) {
+	.carousel-inner {
+		padding-left: 10px;
 	}
 }
