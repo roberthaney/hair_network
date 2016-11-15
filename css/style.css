@@ -63,7 +63,6 @@ img {
 }
 
 .intro {
-	/*background-image: linear-gradient(to right, #ffffff, #ded5d3);*/
 	background-color: #e9e3e2;
 	margin-bottom: 10px;
 }
@@ -73,7 +72,16 @@ img {
 }
 
 #introduction {
-	margin-top: 10px;
+	margin-top: 30px;
+}
+
+#introduction p {
+	font-size: 18px;
+	color: #5b5437;
+}
+
+#introduction p:last-child {
+	margin-top: 150px;
 }
 
 #service-title {
@@ -170,6 +178,12 @@ img {
 	#title, #address {
 		left: 2%;
 		animation: none;
+	}
+	#introduction {
+		margin-left: 20px;
+	}
+	#introduction p:last-child {
+	margin-top: 20px;
 	}
 }
 
