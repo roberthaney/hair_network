@@ -40,8 +40,13 @@ img {
 	max-width: 100%;
 }
 
-.albumImage {
-	max-height: 400px;
+#photoalbum {
+	text-align: center;
+}
+
+.carousel-inner .item .albumImage {
+	max-height: 370px;
+	display: inline;
 }
 
 .content {
@@ -215,20 +220,5 @@ img {
 	.contacts > div {
 		margin: 5px;
 		padding: 5px;
-	}
-	.carousel-inner {
-		padding-left: 130px;
-	}
-}
-
-@media only screen and (max-width: 722px) {
-	.carousel-inner {
-		padding-left: 50px;
-	}
-}
-
-@media only screen and (max-width: 440px) {
-	.carousel-inner {
-		padding-left: 10px;
 	}
 }
