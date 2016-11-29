@@ -99,6 +99,22 @@ img {
 	transform: skewX(-2deg);
 }
 
+#stylists {
+	font-family: Tahoma;
+}
+
+#stylists h2 {
+	font-weight: bold;
+}
+
+#stylists .row {
+	background-color: #e9e3e2;
+}
+
+#stylists .row p {
+	font-size: 16px;
+}
+
 #service-title {
 	font-family: fantasy;
 }
