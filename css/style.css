@@ -112,7 +112,8 @@ img {
 }
 
 #stylists .row p {
-	font-size: 16px;
+	font-size: 18px;
+	line-height: 26px;
 }
 
 #service-title {
@@ -122,8 +123,7 @@ img {
 #services {
 	margin-bottom: 30px;
 	color: #5b5437;
-	text-align:center;
-	font-family: Tahoma;
+	text-align: center;
 }
 
 #services h3 {
@@ -153,8 +153,8 @@ img {
 	max-width: 120px;
 }
 
-#email {
-	float: right;
+#services-menu {
+	font-family: Tahoma;
 }
 
 #services-menu-content1 {
@@ -169,7 +169,7 @@ img {
 }
 
 #services-menu-content2 .col-sm-8 p {
-	font-size: 16px;
+	font-size: 18px;
 	margin-top: 150px;
 	color: #ffffff;
 	background-color: #004d00;
@@ -178,12 +178,49 @@ img {
 	width: 90%;
 	float: right;
 	box-shadow: -15px -15px 5px 1px rgba(0,0,0,0.75);
+	line-height: 26px;
 }
 
 #services-menu li {
-	font-size: 16px;
-	padding: 5px 5px 5px 5px;
+	font-size: 18px;
+	padding: 4px 5px 4px 5px;
 	margin-top: 5px;
+}
+
+#services-menu h2 {
+	font-weight: bold;
+}
+
+#directions {
+	font-family: Tahoma;
+}
+
+#directions h2 {
+	font-weight: bold;
+}
+
+#directions h4 {
+	font-weight: bold;
+	line-height: 26px;
+}
+
+#appointments {
+	font-family: Tahoma;
+}
+
+#appointments h2 {
+	font-weight: bold;
+}
+
+#appointments p {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 20px 10px 10px 10px;
+	display: inline-block;
+}
+
+#email {
+	float: right;
 }
 
 #map {
@@ -197,6 +234,7 @@ img {
 	text-align: center;
 	padding-top: 5px;
 	font-family: Tahoma;
+	clear: both;
 }
 
 @keyframes slide {
