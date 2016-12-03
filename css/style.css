@@ -66,6 +66,10 @@ img {
 	border: 1px solid #b3b3b3;
 }
 
+.contacts img:hover {
+	box-shadow: 3px 3px 2px black; 
+}
+
 .contacts:nth-child(odd) {
 	color: #947155;
 	margin-top: 10px;
@@ -128,6 +132,14 @@ img {
 
 #service-title {
 	font-family: fantasy;
+}
+
+#services h6 {
+	font-family: Tahoma;
+}
+
+#services img:hover {
+	box-shadow: 4px 4px 2px black; 
 }
 
 #services h3 {
@@ -210,7 +222,9 @@ img {
 }
 
 #appointments {
+	min-height: 400px;
 	font-family: Tahoma;
+	background-image: url(../images/mtnsky.png); 
 }
 
 #appointments h2 {
@@ -226,6 +240,10 @@ img {
 
 #email {
 	float: right;
+}
+
+#email a {
+	color: rgb(51,51,51);
 }
 
 #map {
