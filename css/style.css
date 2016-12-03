@@ -71,6 +71,10 @@ img {
 	margin-top: 10px;
 }
 
+.modal-content {
+	font-family: Tahoma;
+}
+
 .intro {
 	background-color: #e9e3e2;
 	margin-bottom: 10px;
@@ -116,14 +120,14 @@ img {
 	line-height: 26px;
 }
 
-#service-title {
-	font-family: fantasy;
-}
-
 #services {
 	margin-bottom: 30px;
 	color: #5b5437;
 	text-align: center;
+}
+
+#service-title {
+	font-family: fantasy;
 }
 
 #services h3 {
@@ -131,6 +135,7 @@ img {
 	background-color: #003300;
 	padding-top: 2px;
 	padding-bottom: 2px;
+	font-family: Tahoma;
 }
 
 #services .col-md-4 img {
