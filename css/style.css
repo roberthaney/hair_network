@@ -128,6 +128,14 @@ img {
 	font-weight: bold;
 }
 
+#stylists h3 {
+	background-color: #5b5437;
+	border-radius: 7px;
+	padding: 5px;
+	color: #ffeddf;
+	text-align: center;
+}
+
 #stylists .row {
 	background-color: #e9e3e2;
 }
@@ -192,10 +200,12 @@ img {
 }
 
 #services-menu-content2  .col-sm-4 img {
+	border: 4px double #5b5437;
 	border-radius: 150px;
 	width: 90%;
 	margin-bottom: 20px;
 	margin-top: 20px;
+	margin-left: 20px;
 }
 
 #services-menu-content2 .col-sm-8 p {
@@ -235,9 +245,10 @@ img {
 }
 
 #appointments {
-	min-height: 450px;
+	min-height: 300px;
 	font-family: Tahoma;
 	background-image: url(../images/mtnsky.png); 
+	padding-left: 5px;
 }
 
 #appointments h2 {
