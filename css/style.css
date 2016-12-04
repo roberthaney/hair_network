@@ -79,6 +79,19 @@ img {
 	font-family: Tahoma;
 }
 
+.modal-header {
+	background-image: linear-gradient(to right, #ffffff, #e9e3e2);
+}
+
+.modal-footer {
+	background-image: linear-gradient(to left, #ffffff, #e9e3e2);
+}
+
+.btn {
+	background-color: #c8b9b6;
+	box-shadow: 2px 2px 1px #c8b9b6;
+}
+
 .intro {
 	background-color: #e9e3e2;
 	margin-bottom: 10px;
@@ -222,7 +235,7 @@ img {
 }
 
 #appointments {
-	min-height: 400px;
+	min-height: 450px;
 	font-family: Tahoma;
 	background-image: url(../images/mtnsky.png); 
 }
