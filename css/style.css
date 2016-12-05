@@ -199,7 +199,7 @@ img {
 	background-image: linear-gradient(to right, white, #e9e3e2);
 }
 
-#services-menu-content2  .col-sm-4 img {
+#services-menu-content2  .col-md-4 img {
 	border: 4px double #5b5437;
 	border-radius: 150px;
 	width: 90%;
@@ -208,7 +208,7 @@ img {
 	margin-left: 20px;
 }
 
-#services-menu-content2 .col-sm-8 p {
+#services-menu-content2 .col-md-8 p {
 	font-size: 18px;
 	margin-top: 150px;
 	color: #ffffff;
@@ -307,7 +307,7 @@ img {
 }
 
 @media only screen and (max-width:768px) {
-	#services-menu-content2 .col-sm-8 p {
+	#services-menu-content2 .col-md-8 p {
 		margin-top: 0;
 		width:100%;
 		box-shadow: none;
